@@ -1,0 +1,2167 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-family: "jost", sans-serif;
+}
+
+.grid-footer a {
+    font-family: "jost", sans-serif;
+}
+
+.location a {
+    font-family: "jost", sans-serif;
+}
+
+.main-section {
+    background-color: maroon;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+/*      NAVBAR     */
+
+.navbar {
+    margin: 40px 100px 40px 100px;
+    padding: 20px 3% 20px 3%;
+    background-color: rgba(248, 241, 241, 0.901);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.navbar .logo {
+    flex: 1;
+}
+
+.navbar .logo img {
+    height: 46px;
+}
+
+.navbar .nav {
+    flex: 1;
+    justify-content: center;
+}
+
+.navbar .nav-info {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar body {
+    padding-top: 100px;
+}
+
+.navbar .nav .nav-link {
+    color: #434443;
+    font-weight: bold;
+}
+
+.navbar .nav .nav-link:hover {
+    color: #eb0029;
+}
+
+.navbar .nav-show-btn {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.navbar .nav-hide-btn,
+.nav-show-btn {
+    display: none;
+}
+
+.navbar .nav-info .cart {
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    background-color: #434443;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+/* -----------------------------------------------------------INDEX.HTML----------------------------------------------------------- */
+
+
+/* <!--FIRST SECTION ->DISCOUNTS SLIDER--> */
+
+.main-section .grid-first .container .card-1,
+.card-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.grid-first .main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.grid-first h6 {
+    color: white;
+    border: 1px solid white;
+    padding: 15px 20px 15px 20px;
+    width: fit-content;
+}
+
+.grid-first h1 {
+    font-size: 80px;
+    color: white;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.grid-first p {
+    font-size: 20px;
+    color: white;
+    line-height: 2;
+    margin-top: 0%;
+}
+
+.grid-first .container .card-2 img {
+    width: 90%;
+    height: 90%;
+}
+
+.grid-first .order-button .btn {
+    color: white;
+    background-color: #eb0029;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.grid-first .order-button .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* <!--SECOND SECTION -> MENU --> */
+
+.grid-second {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: gainsboro;
+}
+
+.grid-second .container .main .card-1 .f-title .icon {
+    margin-right: -38%;
+}
+
+.grid-second .container .main .card-1 .f-title img {
+    width: 35%;
+    border-radius: 50%;
+    border: solid 1px #eb0029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0;
+}
+
+.grid-second .container .main .card-1 .f-title h1 {
+    font-size: 70px;
+    color: #eb0029;
+}
+
+.grid-second .container .main .card-1 .f-title p {
+    margin: 0;
+}
+
+.grid-second .container .main .card-1 .dish-img img {
+    padding-top: 43px;
+    width: 100%;
+}
+
+.grid-second .container .card-2 {
+    padding: 0 0 0 10%;
+}
+
+.grid-second .container .card-2 .title h4 {
+    color: #eb0029;
+    font-weight: bold;
+}
+
+.grid-second .container .card-2 .title h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.grid-second .container .card-2 .title .arrow-img {
+    padding-left: 10px;
+    width: 19%;
+}
+
+.grid-second .container .card-2 .menu-button {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.grid-second .container .card-2 .menu-button .btn {
+    margin-bottom: 5px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.grid-second .container .card-2 .menu-button .active {
+    background-color: #eb0029;
+    color: white;
+}
+
+.grid-second .container .card-2 .menu-sub-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.grid-second .container .card-2 .menu-sub-buttons li {
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid #9a9ba2;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 7px 20px;
+    padding-top: 3px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.grid-second .container .card-2 .options .content {
+    margin-bottom: 10px;
+}
+
+.grid-second .container .card-2 .options .top a {
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.grid-second .container .card-2 .options .top li {
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    padding: 1px 1px 1px 37px;
+    border-radius: 5px;
+    color: #eb0029;
+}
+
+
+/* <!--THIRD SECTION -> MENU -2 --> */
+
+.grid-third {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #2f4f4f;
+}
+
+.grid-third .card-content {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.grid-third .image {
+    z-index: 1;
+}
+
+
+/* THIRD SECTION CARD-1 */
+
+.grid-third .container .card-1 {
+    padding: 65px;
+    background-color: #eb0029;
+}
+
+.grid-third .container .card-1 .title {
+    width: 50%;
+}
+
+.grid-third .container .card-1 .title h1 {
+    color: white;
+    font-size: 65px;
+}
+
+.grid-third .container .card-1 .image {
+    display: flex;
+    justify-content: end;
+    margin-right: -221px;
+    margin-top: -49px;
+}
+
+.grid-third .container .card-1 .image img {
+    width: 81%;
+}
+
+.grid-third .container .card-1 .order-button .btn {
+    margin-top: 60px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.grid-third .container .card-1 .order-button .btn:hover {
+    color: white;
+    background-color: #2f4f4f;
+}
+
+
+/* THIRD SECTION CARD-2 */
+
+.grid-third .container .card-2 {
+    padding: 65px;
+    padding-bottom: 0px;
+    background-color: #181641;
+    /* height: 85%; */
+}
+
+.grid-third .container .card-2 .title {
+    text-align: left;
+    width: 50%;
+}
+
+.grid-third .container .card-2 .title h1 {
+    color: white;
+    font-size: 65px;
+}
+
+.grid-third .container .card-2 .image {
+    position: absolute;
+    right: 20px;
+    position: absolute;
+    right: 57px;
+    bottom: -38px;
+    width: 250px;
+}
+
+.grid-third .container .card-2 .image img {
+    width: 158%;
+}
+
+.grid-third .container .card-2 .order-button .btn {
+    margin-top: 30px;
+    color: white;
+    background-color: #eb0029;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.grid-third .container .card-2 .order-button .btn:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* THIRD SECTION CARD-3 */
+
+.grid-third .container .card-3 {
+    padding: 65px;
+    padding-bottom: 0;
+    background-color: #e0f30fe0;
+}
+
+.grid-third .container .card-3 .title {
+    width: 50%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.grid-third .container .card-3 .title h1 {
+    color: white;
+    font-size: 65px;
+}
+
+.grid-third .container .card-3 .image {
+    position: absolute;
+    left: -60px;
+    bottom: -36px;
+    width: 250px;
+}
+
+.grid-third .container .card-3 .image img {
+    width: 158%;
+}
+
+.grid-third .container .card-3 .order-button .btn {
+    margin-top: 30px;
+    color: white;
+    background-color: #2f4f4f;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    margin-left: 307px;
+}
+
+.grid-third .container .card-3 .order-button .btn:hover {
+    color: white;
+    background-color: #eb0029;
+}
+
+
+/* <!-- FOURTH SECTION -> BEST DEALS --> */
+
+.grid-fourth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f3f5f5;
+}
+
+.grid-fourth .container .title {
+    text-align: center;
+}
+
+.grid-fourth .container .title .arrow-img {
+    padding-left: 10px;
+    width: 9%;
+    padding-right: 10px;
+}
+
+.grid-fourth .container .title h4 {
+    color: #eb0029;
+    font-weight: bold;
+}
+
+.grid-fourth .container .title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.grid-fourth .container .card {
+    padding: 30px 17px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f1f4;
+    border-radius: 15px;
+}
+
+.grid-fourth .container .card .image img {
+    width: 90%;
+}
+
+.grid-fourth .container .card .option {
+    padding-top: 20px;
+}
+
+.grid-fourth .container .card .main-heading {
+    padding-top: 20px;
+}
+
+.grid-fourth .container .card .price {
+    padding-top: 20px;
+}
+
+.grid-fourth .container .card .option a {
+    text-decoration: none;
+    color: #434443;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.grid-fourth .container .card .main-heading a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.grid-fourth .container .card .price span {
+    color: #eb0029;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grid-fourth .container .card .add-to-cart .btn {
+    color: black;
+    font-weight: bold;
+    padding: 16px 25px 16px 25px;
+    border: 1px solid rgb(152, 151, 151);
+    margin-top: 25px;
+}
+
+.grid-fourth .container .card .add-to-cart .btn:hover {
+    background-color: #eb0029;
+    color: white;
+}
+
+
+/* <!-- FIFTH SECTION -> LIMITED OFFER  --> */
+
+.grid-fifth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ce6119;
+}
+
+.grid-fifth .container .card-1,
+.card-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.grid-fifth .main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.grid-fifth .f-title h6 {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+    border-radius: 12px;
+    font-size: 21px;
+}
+
+.grid-fifth h1 {
+    font-size: 90px;
+    color: white;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.grid-fifth p {
+    font-size: 15px;
+    color: white;
+    line-height: 2;
+    margin-top: 0%;
+    text-align: justify;
+}
+
+.grid-fifth .container .card-2 img {
+    width: 90%;
+    height: 90%;
+}
+
+.grid-fifth .counter {
+    /* placed all divs in a singleline */
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-fifth .counter .days,
+.hours,
+.minutes,
+.seconds {
+    color: white;
+    border: 1px solid white;
+    padding: 17px 22px 17px 22px;
+    width: fit-content;
+    border-radius: 12px;
+    text-align: center;
+    width: 18%;
+    margin-right: 5px;
+}
+
+.grid-fifth .counter h3 {
+    font-size: 25px;
+}
+
+.grid-fifth .counter h6 {
+    font-size: 10px;
+}
+
+
+/*<!-- SIXTH SECTION -> PROFESSIONAL CHEF -->*/
+
+.grid-sixth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: white;
+}
+
+.grid-sixth .container .title {
+    text-align: center;
+}
+
+.grid-sixth .container .title .arrow-img {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 9%;
+}
+
+.grid-sixth .container .title h4 {
+    color: #eb0029;
+    font-weight: bold;
+}
+
+.grid-sixth .container .title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.grid-sixth .container .card {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: 0;
+}
+
+.grid-sixth .container .card-1,
+.card-3 .image img {
+    margin-top: 30%;
+}
+
+.grid-sixth .container .card .image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.grid-sixth .container .card .main-heading a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.grid-sixth .container .card .main-heading a:hover {
+    color: #eb0029;
+}
+
+.grid-sixth .container .card .sub-heading h6 {
+    text-decoration: none;
+    color: rgb(130, 124, 124);
+}
+
+
+/* <!-- SEVENTH SECTION -> FEEDBACK ABOUT THE WEBSITE --> */
+
+.grid-seventh {
+    padding-top: 90px;
+    padding-bottom: 165px;
+    background-color: rgb(250, 224, 224);
+}
+
+.grid-seventh .container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.grid-seventh .container .ratings i {
+    color: rgb(255, 147, 6);
+}
+
+.grid-seventh .container .title h2 {
+    margin-top: 13px;
+    font-weight: bold;
+}
+
+.grid-seventh .container .description {
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-seventh .container .description p {
+    font-size: 26px;
+    color: rgb(114, 109, 109);
+}
+
+.grid-seventh .container .feedback-img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-seventh .container .feedback-img img {
+    width: 15%;
+    border: solid 7px rgb(211 201 201);
+}
+
+.grid-seventh .container .feedback-img .person {
+    position: relative;
+    transform: rotate(-15deg);
+    top: 39px;
+    right: 52px;
+}
+
+.grid-seventh .container .feedback-img .food {
+    position: relative;
+    transform: rotate(6deg);
+}
+
+
+/*      <!-- EIGHTH SECTION -> RESTAURANT GALLARY -->  */
+
+.grid-eigth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f3f5f5;
+}
+
+.grid-eigth .container .title {
+    text-align: center;
+}
+
+.grid-eigth .container .title .arrow-img {
+    padding-left: 10px;
+    width: 9%;
+    padding-right: 10px;
+}
+
+.grid-eigth .container .card {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: 0;
+}
+
+.grid-eigth .container .card .image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* <!-- NINETH SECTION -> SPONSORS --> */
+
+.grid-nineth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #2f4f4f;
+}
+
+.grid-nineth .container .title h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.grid-nineth .container .title h3::before,
+h3::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #c4bebe;
+}
+
+.grid-nineth .container .title h3::before {
+    margin-right: 15px;
+}
+
+.grid-nineth .container .title h3::after {
+    margin-left: 15px;
+}
+
+.grid-nineth .container .images {
+    margin-top: 80px;
+}
+
+.grid-nineth .container img {
+    width: 15%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* <!-- TENTH SECTION -> NEWS & BLOGS --> */
+
+.grid-tenth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: white;
+}
+
+.grid-tenth .container .title {
+    text-align: center;
+}
+
+.grid-tenth .container .title .arrow-img {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 9%;
+}
+
+.grid-tenth .container .title h4 {
+    color: #eb0029;
+    font-weight: bold;
+}
+
+.grid-tenth .container .title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.grid-tenth .container .card {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: 0;
+}
+
+.grid-tenth .container .card .image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.grid-tenth .container .card .main-heading {
+    padding-top: 30px;
+}
+
+.grid-tenth .container .card .main-heading a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.grid-tenth .container .card .main-heading a:hover {
+    color: #eb0029;
+}
+
+.grid-tenth .container .card .sub-heading {
+    margin-top: 20px;
+    display: flex;
+}
+
+.grid-tenth .container .card .sub-heading li {
+    color: rgb(130, 124, 124);
+    font-size: 17px;
+}
+
+.grid-tenth .container .card .sub-heading li:first-child {
+    list-style-type: none;
+}
+
+.grid-tenth .container .card .sub-heading li:nth-child(2) {
+    margin-left: 10px;
+}
+
+.grid-tenth .container .card .sub-heading li a:hover {
+    color: #eb0029;
+}
+
+.grid-tenth .container .card .sub-heading li::marker {
+    color: black;
+}
+
+.grid-tenth .container .card .sub-heading li a {
+    text-decoration: none;
+    color: rgb(130, 124, 124);
+    margin-left: -10px;
+}
+
+
+/*     <!-- FOOTER SECTION -->  */
+
+.grid-footer {
+    padding-top: 90px;
+    padding-bottom: 15px;
+    background-color: #2f4f4f;
+}
+
+.grid-footer .logo img {
+    width: 50%;
+    height: auto;
+}
+
+.grid-footer .card-1 .description {
+    margin-top: 20px;
+}
+
+.grid-footer .card-1 .timings li {
+    list-style-type: none;
+}
+
+
+/*  */
+
+.grid-footer .card {
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: none;
+    background-clip: border-box;
+}
+
+.grid-footer .description p {
+    color: white;
+}
+
+.grid-footer .description,
+.timings li {
+    color: white;
+}
+
+.grid-footer .description a {
+    color: white;
+}
+
+.grid-footer .title h5 {
+    color: white;
+}
+
+.grid-footer .description li {
+    list-style-type: none;
+    padding: 6px 0;
+}
+
+.grid-footer .description {
+    margin-top: 20px;
+}
+
+.grid-footer .card .description a {
+    text-decoration: none;
+}
+
+.grid-footer .container i {
+    font-size: 18px;
+    color: white;
+}
+
+.grid-footer .container .card-3 .description i {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-footer .container .card-3 .description p {
+    margin-top: -1px;
+}
+
+.grid-footer .container .card-3 .description li {
+    margin-top: -8px;
+}
+
+.grid-footer .description input::placeholder {
+    color: white;
+}
+
+.grid-footer .description input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #cfcccc;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+}
+
+.grid-footer .description form button {
+    color: white;
+    background-color: #eb0029;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    width: 100%;
+}
+
+.grid-footer .description form button:hover {
+    color: black;
+    background-color: white;
+}
+
+.grid-footer .description form button:hover i {
+    color: black;
+    background-color: white;
+}
+
+.grid-footer .description form button i {
+    margin-left: 9px;
+}
+
+.grid-footer .description .social-media {
+    margin-top: 17px;
+    display: flex;
+}
+
+.grid-footer .description .social-media .icon {
+    margin-left: 20px;
+    display: flex;
+    justify-items: center;
+}
+
+.grid-footer .description .social-media .icon i {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.grid-footer .description .social-media .icon i:hover {
+    color: #eb0029;
+    border: 1px solid #eb0029;
+}
+
+.grid-footer .footer-bottom {
+    margin-top: 7%;
+}
+
+hr {
+    color: white;
+}
+
+.grid-footer .footer-bottom p {
+    padding-top: 14px;
+    color: white;
+}
+
+.grid-footer .footer-bottom a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* -----------------------------------------------------------ABOUT US.HTML----------------------------------------------------------- */
+
+.about-us {
+    background-image: url("/image/11.jpg");
+}
+
+.about-us .container {
+    text-align: center;
+    padding: 173px 20px;
+}
+
+.about-us .container h6 a {
+    text-decoration: none;
+    color: #f3f5f5;
+}
+
+.about-us .container .address {
+    margin-top: 30px;
+}
+
+.about-us .container h1 {
+    color: white;
+}
+
+.about-us .container h6 {
+    color: white;
+}
+
+
+/* ABOUT US GRID SECOND */
+
+.about-us-grid-second .container .main .card-1 .chef-img img {
+    width: 100%;
+}
+
+.about-us-grid-second {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: white;
+}
+
+.about-us-grid-second .container .card-1 .contact a .icon i {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    background: #eb0029;
+    color: white;
+    font-size: 30px;
+}
+
+.about-us-grid-second .container .card-1 .contact a {
+    display: inline-flex;
+    align-items: center;
+    background: gainsboro;
+    text-decoration: none;
+}
+
+.about-us-grid-second .container .card-1 .contact .info {
+    padding: 10px 30px;
+}
+
+.about-us-grid-second .container .card-1 .contact span {
+    color: #434443;
+    font-weight: bold;
+}
+
+.about-us-grid-second .container .card-1 .contact h4 {
+    color: black;
+}
+
+.about-us-grid-second .container .card-1 .contact {
+    display: flex;
+    justify-content: right;
+    margin-top: -100px;
+    margin-right: -70px;
+}
+
+.about-us-grid-second .container .card-2 {
+    padding: 0 0 0 10%;
+}
+
+.about-us-grid-second .container .card-2 .title h4 {
+    color: #eb0029;
+    font-weight: bold;
+}
+
+.about-us-grid-second .container .card-2 .title h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-us-grid-second .container .card-2 .title .arrow-img {
+    padding-left: 10px;
+    width: 19%;
+}
+
+.about-us-grid-second .container .card-2 hr {
+    margin-top: 50px;
+    color: black;
+    margin-left: -89px;
+    width: 50%;
+}
+
+.about-us-grid-second .container .card-2 .description p {
+    font-size: 22px;
+    color: #434443;
+    line-height: 2;
+    margin-top: 33px;
+    text-align: justify;
+}
+
+
+/* <!-- FIFTH SECTION -> Experience of real recipes taste  --> */
+
+.experience-grid-fifth {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fcf9f8;
+}
+
+.experience-grid-fifth .container .main .card-1 .title h1 {
+    font-size: 63px;
+    color: black;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.experience-grid-fifth .container .main .card-1 hr {
+    color: black;
+}
+
+.experience-grid-fifth .container .card-2 img {
+    width: 71%;
+}
+
+.experience-grid-fifth .stats {
+    /* placed all divs in a singleline */
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-grid-fifth .stats .orders,
+.dishes {
+    margin-right: 40px;
+}
+
+.experience-grid-fifth .stats h3 {
+    font-size: 65px;
+    color: #eb0029;
+}
+
+.experience-grid-fifth .stats h6 {
+    font-size: 20px;
+    color: #434443;
+}
+
+.professional-chef {
+    background-color: #eee7e7;
+}
+
+.professional-chef .container .card {
+    background-color: #eee7e7;
+}
+
+.feedback {
+    background-color: white;
+}
+
+.about-section-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+/*      NAVBAR     */
+
+.about-section-navbar .navbar {
+    margin: 0;
+    padding: 20px 3% 20px 3%;
+    background-color: white;
+    box-shadow: none;
+}
+
+
+/* -----------------------------------------------------------CONTACT US.HTML----------------------------------------------------------- */
+
+.location iframe {
+    width: 100%;
+    height: 800px;
+    pointer-events: none;
+}
+
+.location .google-map {
+    position: relative;
+}
+
+.location .container {
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    width: fit-content;
+}
+
+.location .container .card {
+    padding: 82px;
+    border: none;
+    width: 572px;
+}
+
+.location .container .card .description .detail p {
+    font-size: 16px;
+    color: #434443;
+}
+
+.location .container .card .description .description-2 i {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+}
+
+.location .container .card .description-2 .call-us i {
+    background-color: #eb0029;
+}
+
+.location .container .card .description-2 h6 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.location .container .card .description .description-2 p {
+    font-size: 16px;
+}
+
+.location .container .card .description-2 .call-us li {
+    list-style-type: none;
+}
+
+.location .container .card .description-2 .call-us li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.location .container .card .description-2 .address i {
+    background-color: orangered;
+}
+
+.location .container .card .description-2 .email-us i {
+    background-color: #434443;
+}
+
+
+/*     <!-- CONTACT FORM  -->  */
+
+.contact-form {
+    padding: 104px;
+}
+
+.contact-form .container .card {
+    background-color: #eff0f4;
+    border-radius: 1%;
+    padding: 6%;
+}
+
+.contact-form .container .card form .title {
+    text-align: center;
+}
+
+.contact-form .container .card .title h4 {
+    color: #eb0029;
+    font-weight: bold;
+}
+
+.contact-form .container .card .title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-form .container .card .title .arrow-img {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 9%;
+}
+
+.contact-form .container .card form input {
+    height: 62px;
+}
+
+.contact-form .container .card form .send-msg-btn .btn {
+    background-color: #eb0029;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-form .container .card form .send-msg-btn .btn:hover {
+    background-color: #434443;
+}
+
+.contact-form .container .card form .send-msg-btn .btn i {
+    margin-right: 12px;
+}
+
+
+/* -----------------------------------------------------------BLOG.HTML----------------------------------------------------------- */
+
+.blog .container .card .image {
+    height: 230px;
+}
+
+.blog .container .card .image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog .container .card {
+    height: 606px;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 7px 2px;
+}
+
+.blog .container .card .description .read-more {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+.blog .container .card .main-heading {
+    padding-top: 15px;
+}
+
+.blog .container .card .blog-views {
+    padding-top: 33px;
+}
+
+.blog .container .card .description {
+    padding: 0px 20px 0px 20px;
+}
+
+.blog .container .card .description .blog-views i {
+    color: #eb0029;
+}
+
+.blog .container .card .description .blog-views a {
+    color: #434443;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.blog .container .card .description .detail {
+    margin-top: 10px;
+}
+
+.blog .container .card .description .read-more .btn {
+    color: white;
+    background-color: #eb0029;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+.blog .container .card .description .read-more .btn:hover {
+    background-color: #434443;
+}
+
+@media only screen and (max-width: 1400px) {
+    .grid-first h1 {
+        font-size: 65px;
+    }
+    .grid-third .container .card-3 .image img {
+        width: 140%;
+    }
+    .grid-third .container .card-3 .order-button .btn {
+        padding: 10px 25px 10px 25px;
+        margin-left: 233px;
+    }
+    .grid-fifth .counter .days,
+    .hours,
+    .minutes,
+    .seconds {
+        padding: 11px 8px 11px 8px;
+    }
+    .grid-nineth .container img {
+        margin-left: 17px;
+        margin-right: 26px;
+    }
+    .grid-third .container .card-3 .title {
+        margin-right: 31px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .grid-first h1 {
+        font-size: 58px;
+    }
+    .main-section .grid-first .container {
+        padding-bottom: 23px;
+    }
+    .grid-third .container .card-1 {
+        padding: 30px 50px;
+        background-color: #eb0029;
+    }
+    .grid-third .container .card-2 {
+        padding-top: 30px;
+    }
+    .grid-third .container .card-1 .title h1 {
+        font-size: 48px;
+    }
+    .grid-third .container .card-2 .title h1 {
+        font-size: 48px;
+    }
+    .grid-third .container .card-3 .title h1 {
+        font-size: 48px;
+    }
+    .grid-third .container .card-1 .image img {
+        width: 66%;
+    }
+    .grid-third .container .card-2 .image {
+        position: absolute;
+        right: 20px;
+        position: absolute;
+        right: -28px;
+        bottom: -28px;
+        width: 250px;
+    }
+    .grid-third .container .card-2 .image img {
+        width: 103%;
+    }
+    .grid-third .container .card-3 {
+        padding-top: 30px;
+    }
+    .grid-third .container .card-3 .image img {
+        width: 103%;
+    }
+    .grid-third .container .card-3 .title {
+        margin-right: 22px;
+        margin-left: auto;
+    }
+    .grid-third .container .card-3 .order-button .btn {
+        padding: 10px 25px 10px 25px;
+        margin-left: 187px;
+    }
+    .grid-third .container .card-1 .image {
+        display: flex;
+        justify-content: end;
+        margin-right: -167px;
+        margin-top: -38px;
+    }
+    .grid-fourth .container .card .main-heading a {
+        font-size: 17px;
+    }
+    .grid-fourth .container .card .option a {
+        font-size: small;
+    }
+    .grid-fourth .container .card .add-to-cart .btn {
+        font-weight: bold;
+        padding: 6px 10px 6px 10px;
+        font-size: 14px;
+    }
+    .grid-fourth .container .card .price span {
+        font-size: 23px;
+    }
+    .grid-fifth h1 {
+        font-size: 58px;
+    }
+    .about-us-grid-second .container .card-2 .title h1 {
+        font-size: 48px;
+    }
+    .experience-grid-fifth .container .main .card-1 .title h1 {
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        margin: 40px 33px 40px 32px;
+    }
+    .navbar .nav {
+        flex: 1;
+        justify-content: center;
+    }
+    .grid-second .container .card-2 {
+        padding: 0 0 0 4%;
+    }
+    .about-us-grid-second .container .card-2 hr {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 0%;
+    }
+    .about-us-grid-second .container .card-1 .contact {
+        margin-right: 0px;
+    }
+    .about-us-grid-second .container .row .col-lg-6 {
+        display: flex;
+        align-items: center;
+    }
+    .about-us-grid-second .container .card-2 .title h1 {
+        font-size: 40px;
+    }
+    .about-us-grid-second .container .card-2 .description p {
+        font-size: 18px;
+    }
+    .experience-grid-fifth .container .main .card-1 .title h1 {
+        font-size: 47px;
+    }
+    .experience-grid-fifth .stats h3 {
+        font-size: 62px;
+    }
+    .experience-grid-fifth .stats h6 {
+        font-size: 17px;
+    }
+    .contact-form .container .card .title h1 {
+        font-size: 50px;
+    }
+    .grid-fourth .container .card {
+        height: 400px;
+    }
+    .location .container .card {
+        padding: 55px;
+        width: 520px;
+    }
+    .location .container {
+        bottom: 97px;
+    }
+    .grid-seventh .container .description {
+        width: 100%;
+    }
+    .blog .container .card {
+        height: 732px;
+    }
+    .blog .container .card .description .blog-views a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .grid-second .container .main .card-1 .f-title .icon {
+        margin-right: -25%;
+    }
+    .grid-fifth .counter h3 {
+        font-size: 17px;
+    }
+    .grid-fifth .counter h6 {
+        font-size: 7px;
+    }
+    .grid-fifth h1 {
+        font-size: 35px;
+    }
+    .grid-first h1 {
+        font-size: 35px;
+    }
+    .grid-fifth .counter .days,
+    .hours,
+    .minutes,
+    .seconds {
+        padding: 6px;
+    }
+    .main-section .grid-first .container {
+        padding-bottom: 30px;
+    }
+    .grid-second .container .card-2 {
+        padding: 0;
+        margin-top: 62px;
+    }
+    .grid-third .container .col-md-7 {
+        width: 100%;
+    }
+    .grid-third .container .card-1 .image {
+        position: absolute;
+        right: 20px;
+        position: absolute;
+        right: 115px;
+        bottom: -53px;
+        width: 250px;
+    }
+    .grid-third .container .card-1 .image img {
+        width: 103%;
+    }
+    .grid-third .container .card-1 .title {
+        text-align: left;
+        width: 50%;
+    }
+    .grid-third .container .card-1 .order-button .btn {
+        margin-top: 30px;
+    }
+    .grid-third .container .card-2 {
+        padding: 30px 50px;
+    }
+    .grid-third .container .card-3 {
+        padding: 30px 50px;
+    }
+    .grid-third .container .card-3 .order-button .btn {
+        margin-left: 277px;
+    }
+    .grid .container .title h1 {
+        font-size: 40px;
+    }
+    .grid-sixth .container .card .main-heading a {
+        font-size: 20px;
+    }
+    .grid-sixth .container .card .sub-heading h6 {
+        font-size: 14px;
+    }
+    .grid-seventh .container .description p {
+        font-size: 21px;
+    }
+    .grid-seventh .container .feedback-img img {
+        width: 19%;
+    }
+    .grid-nineth .container img {
+        margin-left: 14px;
+        margin-right: 17px;
+    }
+    .grid-tenth .container .card .main-heading a {
+        font-size: 16px;
+    }
+    .grid-third .container .col-md-7 {
+        width: 100%;
+    }
+    .grid-seventh .container .feedback-img .person {
+        right: 37px;
+    }
+    .about-us-grid-second .container .card-2 {
+        padding: 0;
+        margin-top: 40px;
+    }
+    .about-us-grid-second .container .card-2 .description p {
+        margin-top: 0px;
+    }
+    .experience-grid-fifth .container .main .card-1 .title h1 {
+        font-size: 47px;
+    }
+    .experience-grid-fifth .stats h3 {
+        font-size: 47px;
+    }
+    .experience-grid-fifth .stats h6 {
+        font-size: 14px;
+    }
+    .contact-form .container .card .title h1 {
+        font-size: 51px;
+    }
+    .contact-form .container .card .title .arrow-img {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        margin: 40px 100px 40px 100px;
+    }
+}
+
+@media only screen and (max-width: 836px) {
+    .navbar {
+        margin: 40px 99px 40px 99px;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .navbar {
+        margin: 40px 97px 40px 97px;
+    }
+    .contact-form .container .card .title h1 {
+        font-size: 39px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin: 40px 5% 40px 5%;
+    }
+    .navbar .nav {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 3;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar .nav .nav-link {
+        font-weight: bold;
+    }
+    .navbar .nav-hide-btn,
+    .nav-show-btn {
+        display: block;
+    }
+    .navbar .nav-hide {
+        width: 50px;
+        aspect-ratio: 1/1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #212529 !important;
+        border-radius: 100px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 23px;
+        margin: 15px 15px 50px auto;
+    }
+    .grid-first h1 {
+        font-size: 35px;
+        padding-bottom: 7px;
+    }
+    .grid-second .container .card-2 .title h1 {
+        font-size: 40px;
+    }
+    .grid-third .container .card-1 .title {
+        width: 48%;
+    }
+    .grid-third .container .card-2 .title {
+        width: 48%;
+    }
+    .grid-first h6 {
+        justify-self: center;
+    }
+    .grid-fifth h1 {
+        padding-bottom: 12px;
+    }
+    .main-section .grid-first .container .card-1 {
+        text-align: center;
+    }
+    .grid-fifth .f-title h6 {
+        justify-self: center;
+    }
+    .grid-fifth p {
+        text-align: center;
+    }
+    .grid-fifth .counter {
+        display: flex;
+        justify-content: center;
+    }
+    .grid-fifth h1 {
+        text-align: center;
+    }
+    .grid-seventh .container .feedback-img .person {
+        top: 14px;
+        right: 16px;
+    }
+    .grid-third .container .card-3 .order-button .btn {
+        margin-left: 272px;
+    }
+    .grid-sixth .container .card-1,
+    .card-3 .image img {
+        margin-top: 0%;
+    }
+    .grid-nineth .container .title h3 {
+        font-size: 30px;
+    }
+    .grid-nineth .container .images {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .grid-nineth .container .images img {
+        width: 80px;
+    }
+    .grid-footer .card-4 .social-media {
+        align-items: center;
+    }
+    .grid-footer .card-4 .social-media h5 {
+        font-size: 14px;
+    }
+    .about-us-grid-second .container .card-1 .contact {
+        margin-top: -80px;
+    }
+    .about-us-grid-second .container .card-1 .contact a .icon i {
+        height: 80px;
+        width: 80px;
+        line-height: 84px;
+        font-size: 32px;
+    }
+    .about-us-grid-second .container .card-2 .title h1 {
+        font-size: 35px;
+    }
+    .experience-grid-fifth .stats {
+        display: flex;
+        text-align: center;
+    }
+    .experience-grid-fifth .stats .orders,
+    .dishes {
+        margin: 14px;
+    }
+    .experience-grid-fifth .container .main .card-1 .title h1 {
+        font-size: 34px;
+    }
+    .experience-grid-fifth .container .card-2 img {
+        margin-top: 20px;
+    }
+    .grid-sixth .container .card .main-heading {
+        text-align: center;
+    }
+    .grid-sixth .container .card .sub-heading {
+        text-align: center;
+    }
+    .location .container {
+        position: initial;
+        margin-top: 20px;
+    }
+    .contact-form {
+        padding: 20px 0px;
+    }
+    .location .container .card {
+        padding: 40px 0px;
+        width: 100%;
+    }
+    .location iframe {
+        width: 100%;
+        height: 293px;
+        pointer-events: none;
+    }
+    .contact-form .container .card .title h4 {
+        font-size: 18px;
+    }
+    .blog .container .card {
+        height: 682px;
+    }
+    .blog .container .description p {
+        font-size: 14px;
+    }
+    .blog .container .card .description {
+        padding: 0px 10px 0px 10px;
+    }
+    .blog .container .card .description .blog-views i {
+        font-size: 11px;
+    }
+    .blog .container .card .description .blog-views a {
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .blog .container .card .description .read-more .btn {
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .grid-third .container .card-3 .order-button .btn {
+        margin-left: 192px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .contact-form .container .card .title .arrow-img {
+        width: 0%;
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    .grid-third .container .card-3 .order-button .btn {
+        margin-left: 169px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .grid-second .container .card-2 .menu-button .btn {
+        padding: 7px 10px 7px 10px;
+    }
+    .grid-second .container .main .card-1 .f-title .icon {
+        margin-right: -47%;
+    }
+    .grid-second .container .card-2 {
+        text-align: center;
+    }
+    .grid-second .container .card-2 .title h1 {
+        font-size: 45px;
+    }
+    .grid-third .container .card-1 .title {
+        width: 100%;
+        text-align: center;
+    }
+    .grid-third .container .card-1 .title h1 {
+        font-size: 39px;
+    }
+    .grid-third .container .card-1 .image {
+        display: contents;
+    }
+    .grid-third .container .card-1 .order-button {
+        display: flex;
+        justify-content: center;
+    }
+    .grid-third .container .card-2 .title {
+        width: 100%;
+        text-align: center;
+    }
+    .grid-third .container .card-2 .title h1 {
+        font-size: 39px;
+    }
+    .grid-third .container .card-2 .image {
+        display: contents;
+    }
+    .grid-third .container .card-2 .image img {
+        margin-top: 20px;
+    }
+    .grid-third .container .card-2 .order-button {
+        display: flex;
+        justify-content: center;
+    }
+    .grid-third .container .card-2 .order-button .btn {
+        margin-top: 20px;
+    }
+    .grid-third .container .card-3 .title {
+        width: 100%;
+        text-align: center;
+    }
+    .grid-third .container .card-3 .title h1 {
+        font-size: 39px;
+    }
+    .grid-third .container .card-3 .image {
+        display: contents;
+    }
+    .grid-third .container .card-3 .image img {
+        margin-top: 20px;
+    }
+    .grid-third .container .card-3 .order-button {
+        display: flex;
+        justify-content: center;
+    }
+    .grid-third .container .card-3 .order-button .btn {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .grid-seventh .container .description p {
+        font-size: 17px;
+    }
+    .about-us-grid-second .container .card-2 .title h1 {
+        font-size: 30px;
+    }
+    .about-us-grid-second .container .card-2 .description p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .grid-nineth .container .title h3 {
+        font-size: 18px;
+    }
+    .experience-grid-fifth .container .main .card-1 .title h1 {
+        text-align: center;
+    }
+    .experience-grid-fifth .stats {
+        justify-content: center;
+    }
+    .grid-fourth .container .card {
+        height: 100%;
+    }
+    .contact-form .container .card .title h1 {
+        font-size: 33px;
+    }
+    .location .container .card .description .description-2 i {
+        height: 55px;
+        width: 55px;
+        font-size: 26px;
+    }
+    .contact-form .container .card form .send-msg-btn .btn {
+        padding: 12px 10px !important;
+    }
+    .about-us-grid-second .container .card-1 .contact {
+        margin-top: -59px;
+    }
+    .about-us-grid-second .container .card-1 .contact a .icon i {
+        height: 59px;
+        width: 54px;
+        line-height: 58px;
+        font-size: 25px;
+    }
+    .about-us-grid-second .container .card-1 .contact .info {
+        padding: 1px 25px;
+    }
+    .about-us-grid-second .container .card-1 .contact .info span {
+        font-size: 12px;
+    }
+    .about-us-grid-second .container .card-1 .contact .info h4 {
+        font-size: 17px;
+    }
+    .blog .container .card {
+        height: 100%;
+    }
+    .blog .container .card .description .read-more {
+        position: relative;
+        bottom: 0;
+    }
+    .blog .container .card .description .blog-views i {
+        font-size: 15px;
+    }
+    .blog .container .card .description .blog-views a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .contact-form .container .card .title h4 {
+        font-size: 17px;
+    }
+    .contact-form .container .card .title h1 {
+        font-size: 25px;
+    }
+    .grid-second .container .card-2 .menu-button .btn {
+        padding: 4px 4px 4px 4px;
+    }
+    .experience-grid-fifth .container .main .card-1 .title h1 {
+        font-size: 33px;
+    }
+    .grid-fourth .container .card {
+        padding: 14px 17px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .grid-seventh .container .feedback-img .person {
+        position: relative;
+        transform: rotate(-15deg);
+        top: 19px;
+        right: 12px;
+    }
+}
+
+@media only screen and (max-width: 347px) {
+    .contact-form .container .card .title h4 {
+        font-size: 15px;
+    }
+    .contact-form .container .card .title h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .navbar .nav-show-btn {
+        padding-left: 0px;
+    }
+    .navbar .nav-info .cart {
+        font-size: 15px;
+    }
+    .navbar .logo img {
+        height: 40px;
+    }
+    .grid-first h1 {
+        font-size: 35px;
+    }
+    .grid-second .container .card-2 .options .top a {
+        font-size: 16px;
+    }
+    .grid-second .container .card-2 .options .top li {
+        font-size: 14px;
+        padding: 1px 11px 1px 13px;
+    }
+    .grid-second .container .card-2 .menu-sub-buttons li {
+        margin-left: 9px;
+        padding: 4px 16px;
+        font-size: 14px;
+    }
+    .grid-second .container .main .card-1 .f-title .icon {
+        margin-right: -66%;
+    }
+    .grid-second .container .card-2 .title h1 {
+        font-size: 36px;
+    }
+    .grid-second .container .card-2 p {
+        font-size: 12px;
+    }
+    .grid-nineth .container .title h3 {
+        text-align: center;
+    }
+    .grid-nineth .container .images img {
+        width: 64px;
+    }
+    .grid-seventh .container .description p {
+        font-size: 12px;
+    }
+    .grid .container .title h1 {
+        font-size: 36px;
+    }
+    .grid-second .container .card-2 .menu-button .btn {
+        font-size: 13px;
+    }
+    .about-us-grid-second .container .card-1 .contact {
+        margin-top: -67px;
+    }
+    .about-us-grid-second .container .card-1 .contact {
+        margin-top: -59px;
+    }
+    .contact-form .container .card form input {
+        height: 37px;
+    }
+    .location .container .card .description .description-2 i {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+    .location .container .card .description-2 h6 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .blog .container .card .description .blog-views a {
+        margin-right: 5px;
+        font-size: 13px;
+    }
+    .blog .container .card .description .read-more .btn {
+        font-size: 12px;
+    }
+}
